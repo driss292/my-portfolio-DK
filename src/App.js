@@ -3,7 +3,6 @@ import Contact from "./containers/Contact";
 import Home from "./containers/Home";
 import Skills from "./containers/Skills";
 import Work from "./containers/Work";
-import MonCV from "./containers/MonCV";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
         <Route path="skills" element={<Skills />} />
         <Route path="work" element={<Work />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="/monCV" element={<MonCV />} />
       </Routes>
     </>
   );

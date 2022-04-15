@@ -66,7 +66,7 @@ export default function Navbar() {
         </li>
         <li className="py-6 text-4xl">
           <Link onClick={handleClick} to="/skills">
-            Compétences & Notions
+            Compétences
           </Link>
         </li>
         <li className="py-6 text-4xl">
@@ -112,12 +112,14 @@ export default function Navbar() {
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] rounded-r-md duration-300 bg-[#ffbc02]">
-            <Link
-              to="/monCV"
+            <a
+              href="https://drive.google.com/file/d/1OR_bWFGPOH_qEJKwPiwW7C70xnQWp5Wy/view?usp=sharing"
               className="flex justify-between items-center w-full text-black"
+              target={"_blank"}
+              rel="noopener noreferrer"
             >
               mon CV <BsFillPersonLinesFill size={30} />
-            </Link>
+            </a>
           </li>
         </ul>
       </div>
