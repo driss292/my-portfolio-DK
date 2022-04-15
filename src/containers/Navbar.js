@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <Link to="home" smooth={true} duration={500}>
+        <Link to="/">
           <img
             className="cursor-pointer"
             src={Logo}
@@ -26,29 +26,19 @@ export default function Navbar() {
 
       <ul className="hidden md:flex">
         <li>
-          <Link to="home" smooth={true} duration={500}>
-            Accueil
-          </Link>
+          <Link to="/">Accueil</Link>
         </li>
         <li>
-          <Link to="about" smooth={true} duration={500}>
-            &Agrave; propos
-          </Link>
+          <Link to="/about">&Agrave; propos</Link>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500}>
-            Compétences & Notions
-          </Link>
+          <Link to="/skills">Compétences & Notions</Link>
         </li>
         <li>
-          <Link to="work" smooth={true} duration={500}>
-            Mes projets
-          </Link>
+          <Link to="/work">Mes projets</Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500}>
-            Contact
-          </Link>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
 
@@ -65,27 +55,27 @@ export default function Navbar() {
         }
       >
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="/">
             Accueil
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="/about">
             &Agrave; propos
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="/skills">
             Compétences & Notions
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="/work">
             Mes projets
           </Link>
         </li>
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="/contact">
             Contact
           </Link>
         </li>
@@ -98,6 +88,7 @@ export default function Navbar() {
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/driss-kaci-023581106/"
               target={"_blank"}
+              rel="noopener noreferrer"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
@@ -107,6 +98,7 @@ export default function Navbar() {
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/driss292"
               target={"_blank"}
+              rel="noopener noreferrer"
             >
               Github <FaGithub size={30} />
             </a>
@@ -120,12 +112,12 @@ export default function Navbar() {
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] rounded-r-md duration-300 bg-[#ffbc02]">
-            <a
+            <Link
+              to="/monCV"
               className="flex justify-between items-center w-full text-black"
-              href="/"
             >
-              Resume <BsFillPersonLinesFill size={30} />
-            </a>
+              mon CV <BsFillPersonLinesFill size={30} />
+            </Link>
           </li>
         </ul>
       </div>
