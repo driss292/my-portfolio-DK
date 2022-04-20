@@ -2,7 +2,7 @@ import React from "react";
 import Vinted from "../assets/Vinted.png";
 import Marvel from "../assets/Marvel.png";
 import GamePad from "../assets/GamePad.png";
-import Netflix from "../assets/Netflix_app.png";
+import Netflix from "../assets/netflix_app.png";
 import SnapChat from "../assets/SnapChat.jpg";
 import Amazon from "../assets/Amazon.jpeg";
 import Navbar from "./Navbar";
