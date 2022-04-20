@@ -145,9 +145,15 @@ export default function Work() {
                     En cours
                   </button>
                 </a>
-                <a href="/">
+                <a
+                  href="https://react-netflix-app-v1.netlify.app/"
+                  target={"_blank"}
+                  rel="noopener noreferrer"
+                >
                   <button
-                    disabled
+                    href="https://github.com/driss292/React-netflix-v1"
+                    target={"_blank"}
+                    rel="noopener noreferrer"
                     className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
                   >
                     Code
@@ -171,7 +177,7 @@ export default function Work() {
                     disabled
                     className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
                   >
-                    En cours
+                    Demo
                   </button>
                 </a>
                 <a href="/">
