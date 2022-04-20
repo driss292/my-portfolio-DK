@@ -2,7 +2,7 @@ import React from "react";
 import Vinted from "../assets/Vinted.png";
 import Marvel from "../assets/Marvel.png";
 import GamePad from "../assets/GamePad.png";
-import Netflix from "../assets/Netflix.png";
+import Netflix from "../assets/Netflix_app.png";
 import SnapChat from "../assets/SnapChat.jpg";
 import Amazon from "../assets/Amazon.jpeg";
 import Navbar from "./Navbar";
@@ -171,10 +171,7 @@ export default function Work() {
                   target={"_blank"}
                   rel="noopener noreferrer"
                 >
-                  <button
-                    disabled
-                    className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
-                  >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
