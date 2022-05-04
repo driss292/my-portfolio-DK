@@ -3,7 +3,7 @@ import Vinted from "../assets/Vinted.png";
 import Marvel from "../assets/Marvel.png";
 import GamePad from "../assets/GamePad.png";
 import Netflix from "../assets/netflix_app.png";
-import SnapChat from "../assets/SnapChat.jpg";
+import Crypto from "../assets/crypto.jpeg";
 import Amazon from "../assets/Amazon-clone.png";
 import Navbar from "./Navbar";
 
@@ -21,7 +21,7 @@ export default function Work() {
       >
         <div className="pb-8 ">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
-            Work
+            Mes projets
           </p>
           <p className="py-6 flex">
             Les projets perso et ceux réalisés dans le cadre de la formation
@@ -193,13 +193,13 @@ export default function Work() {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${SnapChat})` }}
+            style={{ backgroundImage: `url(${Crypto})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects*/}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React-Snapchat-Clone
+                React-Crypto-App
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
