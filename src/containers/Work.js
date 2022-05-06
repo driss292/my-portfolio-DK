@@ -202,12 +202,20 @@ export default function Work() {
                 React-Crypto-App
               </span>
               <div className="pt-8 text-center">
-                <a href="https://crypto-watch-app.netlify.app/">
+                <a
+                  href="https://crypto-watch-app.netlify.app/"
+                  target={"_blank"}
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     En cours
                   </button>
                 </a>
-                <a href="https://github.com/driss292/react-crypto-app">
+                <a
+                  href="https://github.com/driss292/react-crypto-app"
+                  target={"_blank"}
+                  rel="noopener noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
