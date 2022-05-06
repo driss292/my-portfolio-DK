@@ -3,7 +3,7 @@ import Vinted from "../assets/Vinted.png";
 import Marvel from "../assets/Marvel.png";
 import GamePad from "../assets/GamePad.png";
 import Netflix from "../assets/netflix_app.png";
-import Crypto from "../assets/cryptoApp.png";
+import Crypto from "../assets/CryptoApp.png";
 import Amazon from "../assets/Amazon-clone.png";
 import Navbar from "./Navbar";
 
