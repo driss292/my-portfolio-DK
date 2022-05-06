@@ -3,7 +3,7 @@ import Vinted from "../assets/Vinted.png";
 import Marvel from "../assets/Marvel.png";
 import GamePad from "../assets/GamePad.png";
 import Netflix from "../assets/netflix_app.png";
-import Crypto from "../assets/crypto.jpeg";
+import Crypto from "../assets/cryptoApp.png";
 import Amazon from "../assets/Amazon-clone.png";
 import Navbar from "./Navbar";
 
@@ -202,19 +202,13 @@ export default function Work() {
                 React-Crypto-App
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
-                  <button
-                    disabled
-                    className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
-                  >
+                <a href="https://crypto-watch-app.netlify.app/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     En cours
                   </button>
                 </a>
-                <a href="/">
-                  <button
-                    disabled
-                    className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
-                  >
+                <a href="https://github.com/driss292/react-crypto-app">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>
