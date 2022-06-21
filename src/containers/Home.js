@@ -20,7 +20,7 @@ export default function Home() {
                     J'ai 34 ans et dans le cadre de la formation Développeur
                     d'application - JavaScript React - en alternance avec
                     <a
-                        href="https://www.lereacteur.io"
+                        href="https://openclassrooms.com/fr/paths/516-developpeur-dapplication-javascript-react"
                         target={"_blank"}
                         rel="noopener noreferrer"
                     >
