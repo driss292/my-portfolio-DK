@@ -18,11 +18,29 @@ export default function Home() {
                 </h2>
                 <p className="text-[#8892b0] py-4 max-w-[700px]">
                     J'ai 34 ans et dans le cadre de la formation Développeur
-                    d'application JavaScript React en alternance avec
-                    OpenClassRooms, je recherche un contrat de
-                    professionnalisation. J'ai effectué le bootcamp développeur
-                    d'application web et mobile JS React et React Native au
-                    Réacteur.
+                    d'application - JavaScript React - en alternance avec
+                    <a
+                        href="https://www.lereacteur.io"
+                        target={"_blank"}
+                        rel="noopener noreferrer"
+                    >
+                        <span className="text-[#7450eb] ml-1">
+                            {" "}
+                            OpenClassRooms
+                        </span>
+                    </a>
+                    , je recherche un contrat de professionnalisation de 24
+                    mois. J'ai effectué le bootcamp Développeur d'application
+                    web et mobile fullstack - JavaScript React et React Native -
+                    au
+                    <a
+                        href="https://www.lereacteur.io"
+                        target={"_blank"}
+                        rel="noopener noreferrer"
+                    >
+                        <span className="text-[#5c48d2] ml-1"> Reacteur</span>
+                    </a>
+                    .
                     {/* J'ai 34 ans et je suis un jeune développeur web
                     fullstack désireux d'en apprendre plus. Je suis actuellement
                     à la recherche d'une alternance pour une durée de minimum 6
