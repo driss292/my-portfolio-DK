@@ -116,7 +116,7 @@ export default function Navbar() {
                     </li>
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] rounded-r-md duration-300 bg-[#ffbc02]">
                         <a
-                            href="https://drive.google.com/file/d/1I-tl14Fjcr8YGIO39yCU89-riVs56_RL/view?usp=sharing"
+                            href="https://drive.google.com/file/d/12zPHvPeVcgtFlLerSEb5cUDjNK-84mEM/view?usp=sharing"
                             className="flex justify-between items-center w-full text-black"
                             target={"_blank"}
                             rel="noopener noreferrer"
